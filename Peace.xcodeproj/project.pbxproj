@@ -10,6 +10,9 @@
 		BA377C991C69B27B0056D21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA377C981C69B27B0056D21F /* AppDelegate.swift */; };
 		BA377C9B1C69B27B0056D21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA377C9A1C69B27B0056D21F /* Assets.xcassets */; };
 		BA377C9E1C69B27B0056D21F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA377C9C1C69B27B0056D21F /* MainMenu.xib */; };
+		BA377CA61C69B2E50056D21F /* ConsoleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA377CA51C69B2E50056D21F /* ConsoleLog.swift */; };
+		BA377CA91C69B3990056D21F /* 5min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA377CA71C69B3990056D21F /* 5min.mp3 */; };
+		BA377CAA1C69B3990056D21F /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA377CA81C69B3990056D21F /* test.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		BA377C9A1C69B27B0056D21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA377C9D1C69B27B0056D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		BA377C9F1C69B27B0056D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA377CA51C69B2E50056D21F /* ConsoleLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleLog.swift; sourceTree = "<group>"; };
+		BA377CA71C69B3990056D21F /* 5min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 5min.mp3; path = sounds/5min.mp3; sourceTree = "<group>"; };
+		BA377CA81C69B3990056D21F /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = test.mp3; path = sounds/test.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +56,13 @@
 		BA377C971C69B27B0056D21F /* Peace */ = {
 			isa = PBXGroup;
 			children = (
+				BA377CA71C69B3990056D21F /* 5min.mp3 */,
+				BA377CA81C69B3990056D21F /* test.mp3 */,
 				BA377C981C69B27B0056D21F /* AppDelegate.swift */,
 				BA377C9A1C69B27B0056D21F /* Assets.xcassets */,
 				BA377C9C1C69B27B0056D21F /* MainMenu.xib */,
 				BA377C9F1C69B27B0056D21F /* Info.plist */,
+				BA377CA51C69B2E50056D21F /* ConsoleLog.swift */,
 			);
 			path = Peace;
 			sourceTree = "<group>";
@@ -116,7 +125,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA377CA91C69B3990056D21F /* 5min.mp3 in Resources */,
 				BA377C9B1C69B27B0056D21F /* Assets.xcassets in Resources */,
+				BA377CAA1C69B3990056D21F /* test.mp3 in Resources */,
 				BA377C9E1C69B27B0056D21F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA377CA61C69B2E50056D21F /* ConsoleLog.swift in Sources */,
 				BA377C991C69B27B0056D21F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
